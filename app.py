@@ -120,7 +120,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-""", unsafe_allow_html=True)
+
 
 # --- NAVBAR ---
 selected = option_menu(
@@ -265,3 +265,4 @@ st.markdown("""
     &copy; 2025 Skin Disease Detector | Built with ❤️ using Streamlit
 </div>
 """, unsafe_allow_html=True)
+
