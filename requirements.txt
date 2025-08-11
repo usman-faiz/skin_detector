@@ -1,11 +1,7 @@
 streamlit
-streamlit-option-menu
-tensorflow
+gdown
 torch
 torchvision
+scikit-learn
 pillow
 numpy
-scikit-learn
-matplotlib
-tqdm
-gdown
