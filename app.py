@@ -48,7 +48,78 @@ st.markdown("""
             border-radius: 12px;
             box-shadow: 0px 0px 15px rgba(0, 191, 165, 0.4);
         }
+        /* --- Mobile Responsive Tweaks --- */  
+    # --- CUSTOM CSS ---
+
+        body {
+            background-color: #121212;
+            color: white;
+        }
+        .footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background: rgba(20,20,20,0.9);
+            text-align: center;
+            padding: 0.5rem;
+            font-size: 14px;
+            color: #aaa;
+        }
+        .card {
+            background: #1e1e1e;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 0px 15px #00BFA5;
+        }
+        .uploaded-img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 60%;
+            border-radius: 12px;
+            box-shadow: 0px 0px 15px rgba(0, 191, 165, 0.4);
+        }
+
+        /* --- Mobile Responsive Tweaks --- */
+        @media (max-width: 768px) {
+            .uploaded-img {
+                width: 90% !important;
+            }
+            .footer {
+                font-size: 12px;
+                padding: 0.3rem;
+            }
+            .card {
+                padding: 15px;
+            }
+            .stButton>button {
+                width: 100% !important;
+                font-size: 16px !important;
+            }
+            .css-1kyxreq { /* Navbar wrapper */
+                flex-wrap: wrap !important;
+                justify-content: center !important;
+            }
+        }
+        @media (max-width: 480px) {
+            .uploaded-img {
+                width: 100% !important;
+            }
+            .card {
+                padding: 10px;
+            }
+            .footer {
+                font-size: 10px;
+            }
+        }
     </style>
+""", unsafe_allow_html=True)
+
 """, unsafe_allow_html=True)
 
 # --- NAVBAR ---
