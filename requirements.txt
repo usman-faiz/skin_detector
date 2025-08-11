@@ -1,5 +1,10 @@
 streamlit
 streamlit-option-menu
 tensorflow
+torch
+torchvision
 pillow
 numpy
+scikit-learn
+matplotlib
+tqdm
